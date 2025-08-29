@@ -1,0 +1,22 @@
+jmd-ayurveda-billing/
+├─ server/
+│  ├─ package.json
+│  ├─ index.js
+│  ├─ db.js
+│  ├─ routes/
+│  │  └─ invoices.js
+│  ├─ invoices/           # (PDF स्टोर के लिए) - run पर auto बन जाएगा
+│  └─ README.md
+├─ client/
+│  ├─ package.json
+│  ├─ vite.config.js
+│  └─ src/
+│     ├─ main.jsx
+│     ├─ App.jsx
+│     ├─ api.js
+│     ├─ components/
+│     │  ├─ InvoiceForm.jsx
+│     │  └─ InvoiceList.jsx
+│     └─ styles.css
+├─ .gitignore
+└─ README.md
