@@ -1,0 +1,5 @@
+Server runs on port 4000 by default.
+APIs:
+- POST /api/invoices  -> create invoice (returns id and pdf path)
+- GET /api/invoices   -> list invoices
+- GET /api/invoices/:id/pdf -> download invoice PDF
